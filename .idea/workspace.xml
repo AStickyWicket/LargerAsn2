@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="48a99746-f4e7-4794-8e0f-e06f8c562a36" name="Changes" comment="Rearranged files to add Backend. Setup Backend server to talk to react frontend&#10;updated MovieReviewForm.js to send data to back end&#10;updated backend to connect to mongodb and post updates to it" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="LargeAsn2" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LeYrFwWoXu2TscMe71ykZXWKIk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/durnf/Documents/School/CP3010 JavaScript/LargerAsn2/moviereviews",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\durnf\Documents\School\CP3010 JavaScript\LargerAsn1\moviereviews\public" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/ReactFrontEnd/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48a99746-f4e7-4794-8e0f-e06f8c562a36" name="Changes" comment="" />
+      <created>1676233212056</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676233212056</updated>
+      <workItem from="1676233213145" duration="2800000" />
+      <workItem from="1676313936316" duration="5000" />
+      <workItem from="1676411433730" duration="9608000" />
+      <workItem from="1676476933520" duration="4856000" />
+      <workItem from="1676483923233" duration="7539000" />
+      <workItem from="1676562966917" duration="27000" />
+      <workItem from="1676563265076" duration="1192000" />
+      <workItem from="1676584683389" duration="1046000" />
+      <workItem from="1676596128485" duration="32000" />
+      <workItem from="1676643627055" duration="115000" />
+      <workItem from="1676647078021" duration="1504000" />
+      <workItem from="1676651282829" duration="1190000" />
+      <workItem from="1676673122650" duration="2531000" />
+      <workItem from="1676768736167" duration="690000" />
+      <workItem from="1676823257454" duration="241000" />
+      <workItem from="1676831920445" duration="5870000" />
+      <workItem from="1676895466049" duration="87000" />
+      <workItem from="1676896073258" duration="463000" />
+      <workItem from="1676896678508" duration="374000" />
+      <workItem from="1676906234646" duration="261000" />
+      <workItem from="1676906578149" duration="1642000" />
+      <workItem from="1676920212302" duration="90000" />
+      <workItem from="1676920400502" duration="255000" />
+      <workItem from="1677024060665" duration="587000" />
+      <workItem from="1677121274572" duration="2459000" />
+      <workItem from="1677197438605" duration="2149000" />
+      <workItem from="1677202062759" duration="3238000" />
+      <workItem from="1677456968165" duration="5449000" />
+      <workItem from="1677463139988" duration="572000" />
+      <workItem from="1677463755094" duration="462000" />
+    </task>
+    <task id="LOCAL-00001" summary="Updated README.md&#10;Created movie json file&#10;Homepage loads json movie names and images">
+      <created>1676427492207</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676427492207</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Created nav bar with react router&#10;Created working remove button&#10;Added complete display of movie info">
+      <created>1676497416952</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676497416952</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Finished MovieReviewForm.js can no insert movies into homepage, added new pictures for new reviews">
+      <created>1676837850523</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676837850523</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initial Commit Created basic express server">
+      <created>1677123730828</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677123730828</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Rearranged files to add Backend. Setup Backend server to talk to react frontend&#10;updated MovieReviewForm.js to send data to back end&#10;updated backend to connect to mongodb and post updates to it">
+      <created>1677462474383</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677462474383</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/ServerBackend/backend" />
+    </ignored-roots>
+    <MESSAGE value="Updated README.md&#10;Created movie json file&#10;Homepage loads json movie names and images" />
+    <MESSAGE value="Created nav bar with react router&#10;Created working remove button&#10;Added complete display of movie info" />
+    <MESSAGE value="Finished MovieReviewForm.js can no insert movies into homepage, added new pictures for new reviews" />
+    <MESSAGE value="Initial Commit Created basic express server" />
+    <MESSAGE value="Rearranged files to add Backend. Setup Backend server to talk to react frontend&#10;updated MovieReviewForm.js to send data to back end&#10;updated backend to connect to mongodb and post updates to it" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rearranged files to add Backend. Setup Backend server to talk to react frontend&#10;updated MovieReviewForm.js to send data to back end&#10;updated backend to connect to mongodb and post updates to it" />
+  </component>
+</project>

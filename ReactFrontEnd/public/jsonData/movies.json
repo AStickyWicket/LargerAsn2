@@ -1,0 +1,56 @@
+  [
+    {
+      "name": "The Shawshank Redemption",
+      "releaseDate": "1994",
+      "actors": [
+        "Morgan Freeman",
+        "Tim Robbins",
+        "Bob Gunton"
+      ],
+      "moviePosterSrc": "shawshank.jpg",
+      "rating": "9"
+    },
+    {
+      "name": "Old School",
+      "releaseDate": "2003",
+      "actors": [
+        "Will Ferrell",
+        "Luke Wilson",
+        "Vince Vaughn"],
+      "moviePosterSrc": "oldschool.jpg",
+      "rating": "10"
+    },
+    {
+      "name": "Step Brothers",
+      "releaseDate": "2008",
+      "actors": [
+        "Will Ferrell",
+        "John C. Reilly",
+        "Mary Steenburgen"
+      ],
+      "moviePosterSrc": "stepbrothers.jpg",
+      "rating": "10"
+    },
+    {
+      "name": "Annabelle",
+      "releaseDate": "2014",
+      "actors": [
+        "Annabelle Wallis",
+        "Alfre Woodard",
+        "Tony Amendola"
+      ],
+      "moviePosterSrc": "annabelle.jpg",
+      "rating": "6"
+    },
+    {
+      "name": "The Notebook",
+      "releaseDate": "2004",
+      "actors": [
+        "Ryan Gosling",
+        "Rachel McAdams",
+        "James Garner"
+      ],
+      "moviePosterSrc": "thenotebook.jpg",
+      "rating": "3"
+    }
+  ]
