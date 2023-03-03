@@ -1,13 +1,25 @@
 import React from "react";
+import Button from "react-bootstrap/Button";
 
 const RemoveBtn = (props) => {
-    let movieObj = props.movie[props.index];
+    const movieObj = props.movie[props.index];
     return(
     <>
-        <button onClick={() => {
-            document.getElementById(movieObj.name + movieObj.releaseDate).remove();
-            delete props.movie[props.index];
-        }}>Remove {movieObj.name}</button>
+        <Button variant="danger" onClick={() => {
+            fetch("/api/deleteMovies", {
+                method: "POST",
+                body: JSON.stringify(movieObj),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log(`${data.name} successfully deleted`)
+                    props.setMovie(props.movie.filter((movie, index) => index !== props.index))})
+                .catch(error => console.log('Response '+ error));
+
+        }}>Remove {movieObj.name}</Button>
     </>
     )
 }

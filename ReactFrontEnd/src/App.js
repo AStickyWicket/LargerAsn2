@@ -15,7 +15,7 @@ function App() {
     let [movies, setMovies] = useState(null);
 
     useEffect(() => {
-        fetch("/movies")
+        fetch("/api/movies")
             .then(response => response.json() )
             .then( setMovies)
             .catch( error => console.log(error) );
@@ -30,8 +30,8 @@ function App() {
                 <div className="App">
                     <TopNavBar/>
                     <Routes>
-                        <Route path="/" element={<HomePage movies={movies}/>}/>
-                        <Route path="/submit-review" element={<MovieReviewForm movies={movies} setMovies={setMovies}/>}/>
+                        <Route path="/" element={<HomePage movies={movies} setMovies={setMovies}/>}/>
+                        <Route path="/submit-review" element={<MovieReviewForm />}/>
                     </Routes>
                 </div>
             </Router>

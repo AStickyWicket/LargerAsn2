@@ -4,7 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48a99746-f4e7-4794-8e0f-e06f8c562a36" name="Changes" comment="Rearranged files to add Backend. Setup Backend server to talk to react frontend&#10;updated MovieReviewForm.js to send data to back end&#10;updated backend to connect to mongodb and post updates to it" />
+    <list default="true" id="48a99746-f4e7-4794-8e0f-e06f8c562a36" name="Changes" comment="Rearranged files to add Backend. Setup Backend server to talk to react frontend&#10;updated MovieReviewForm.js to send data to back end&#10;updated backend to connect to mongodb and post updates to it">
+      <change afterPath="$PROJECT_DIR$/ServerBackend/backend/posters/b43d0b8727cad5cd7407bcab2f47fe39" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerBackend/backend/posters/blackwidow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerBackend/backend/posters/d0357e51182262be5c3eb220ce1af009" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerBackend/backend/posters/oldschool.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerBackend/backend/posters/shawshank.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerBackend/backend/posters/sherlockholmes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerBackend/backend/posters/thenotebook.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactFrontEnd/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReactFrontEnd/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactFrontEnd/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReactFrontEnd/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactFrontEnd/public/imgs/annabelle.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ServerBackend/backend/posters/annabelle.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactFrontEnd/public/imgs/blackwidow.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ServerBackend/backend/posters/03aa02971fd4bc845dfc413651532cdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactFrontEnd/public/imgs/default.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ServerBackend/backend/posters/default.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactFrontEnd/public/imgs/oldschool.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ServerBackend/backend/posters/44725ee36c6f72448cb1ce37b11987d2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactFrontEnd/public/imgs/shawshank.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ServerBackend/backend/posters/d6a0cca4b8a6d6077a1862e67b9794ce" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactFrontEnd/public/imgs/sherlockholmes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ServerBackend/backend/posters/28f70a643f640039557d96f54064bc6d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactFrontEnd/public/imgs/stepbrothers.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ServerBackend/backend/posters/stepbrothers.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactFrontEnd/public/imgs/thenotebook.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ServerBackend/backend/posters/2c5a7d5cb86384fdd1e2e482682d5417" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactFrontEnd/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/ReactFrontEnd/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactFrontEnd/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/ReactFrontEnd/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactFrontEnd/src/components/removebtn.js" beforeDir="false" afterPath="$PROJECT_DIR$/ReactFrontEnd/src/components/removebtn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactFrontEnd/src/components/topnavbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/ReactFrontEnd/src/components/topnavbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactFrontEnd/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ReactFrontEnd/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactFrontEnd/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/ReactFrontEnd/src/pages/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactFrontEnd/src/pages/MovieReviewForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/ReactFrontEnd/src/pages/MovieReviewForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerBackend/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ServerBackend/backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerBackend/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ServerBackend/backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerBackend/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ServerBackend/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerBackend/backend/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServerBackend/backend/src/server.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,32 +69,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/durnf/Documents/School/CP3010 JavaScript/LargerAsn2/moviereviews",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.13.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.13.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/durnf/Documents/School/CP3010 JavaScript/dale/movie-reviews-master/movie-reviews-master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\durnf\Documents\School\CP3010 JavaScript\LargerAsn2\moviereviews\ServerBackend\backend" />
       <recent name="C:\Users\durnf\Documents\School\CP3010 JavaScript\LargerAsn1\moviereviews\public" />
     </key>
   </component>
@@ -120,7 +152,15 @@
       <workItem from="1677202062759" duration="3238000" />
       <workItem from="1677456968165" duration="5449000" />
       <workItem from="1677463139988" duration="572000" />
-      <workItem from="1677463755094" duration="462000" />
+      <workItem from="1677463755094" duration="545000" />
+      <workItem from="1677520032325" duration="565000" />
+      <workItem from="1677521347319" duration="1271000" />
+      <workItem from="1677553468717" duration="1259000" />
+      <workItem from="1677624337148" duration="4846000" />
+      <workItem from="1677772699139" duration="2901000" />
+      <workItem from="1677785133592" duration="1741000" />
+      <workItem from="1677806539774" duration="2906000" />
+      <workItem from="1677853637063" duration="7366000" />
     </task>
     <task id="LOCAL-00001" summary="Updated README.md&#10;Created movie json file&#10;Homepage loads json movie names and images">
       <created>1676427492207</created>
@@ -157,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677462474383</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Rearranged files to add Backend. Setup Backend server to talk to react frontend&#10;updated MovieReviewForm.js to send data to back end&#10;updated backend to connect to mongodb and post updates to it">
+      <created>1677464287144</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677464287144</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
